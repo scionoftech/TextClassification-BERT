@@ -33,3 +33,5 @@ $ wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_
 ```bash
 $ bert-serving-start -model_dir uncased_L-12_H-768_A-12/ -num_worker=2 -max_seq_len 50
 ```
+
+Dataset link [bbc-fulltext-and-category](https://www.kaggle.com/yufengdev/bbc-fulltext-and-category)
